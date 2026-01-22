@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6D7067A2F180B720090200E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D6D706792F180B720090200E /* FirebaseAnalytics */; };
+		D6D7067C2F180B720090200E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D6D7067B2F180B720090200E /* FirebaseAuth */; };
+		D6D7067E2F180B720090200E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D6D7067D2F180B720090200E /* FirebaseFirestore */; };
+		D6D706802F180B720090200E /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = D6D7067F2F180B720090200E /* FirebaseFirestoreCombine-Community */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC695F052EB78B3600132EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC695EEF2EB78B3500132EE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC695EF62EB78B3500132EE9;
+			remoteInfo = tabli;
+		};
+		CC695F0F2EB78B3600132EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC695EEF2EB78B3500132EE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC695EF62EB78B3500132EE9;
+			remoteInfo = tabli;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC695EF72EB78B3500132EE9 /* tabli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tabli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC695F042EB78B3600132EE9 /* tabliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tabliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC695F0E2EB78B3600132EE9 /* tabliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tabliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D6BE12E52F18253000D69134 /* Exceptions for "tabli" folder in "tabliTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info.plist",
+			);
+			target = CC695F032EB78B3600132EE9 /* tabliTests */;
+		};
+		D6BE12E62F18253000D69134 /* Exceptions for "tabli" folder in "tabliUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info.plist",
+			);
+			target = CC695F0D2EB78B3600132EE9 /* tabliUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CC695EF92EB78B3500132EE9 /* tabli */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D6BE12E52F18253000D69134 /* Exceptions for "tabli" folder in "tabliTests" target */,
+				D6BE12E62F18253000D69134 /* Exceptions for "tabli" folder in "tabliUITests" target */,
+			);
+			path = tabli;
+			sourceTree = "<group>";
+		};
+		CC695F072EB78B3600132EE9 /* tabliTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = tabliTests;
+			sourceTree = "<group>";
+		};
+		CC695F112EB78B3600132EE9 /* tabliUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = tabliUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC695EF42EB78B3500132EE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D7067A2F180B720090200E /* FirebaseAnalytics in Frameworks */,
+				D6D706802F180B720090200E /* FirebaseFirestoreCombine-Community in Frameworks */,
+				D6D7067C2F180B720090200E /* FirebaseAuth in Frameworks */,
+				D6D7067E2F180B720090200E /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC695F012EB78B3600132EE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC695F0B2EB78B3600132EE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC695EEE2EB78B3500132EE9 = {
+			isa = PBXGroup;
+			children = (
+				CC695EF92EB78B3500132EE9 /* tabli */,
+				CC695F072EB78B3600132EE9 /* tabliTests */,
+				CC695F112EB78B3600132EE9 /* tabliUITests */,
+				CC695EF82EB78B3500132EE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC695EF82EB78B3500132EE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC695EF72EB78B3500132EE9 /* tabli.app */,
+				CC695F042EB78B3600132EE9 /* tabliTests.xctest */,
+				CC695F0E2EB78B3600132EE9 /* tabliUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC695EF62EB78B3500132EE9 /* tabli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC695F182EB78B3600132EE9 /* Build configuration list for PBXNativeTarget "tabli" */;
+			buildPhases = (
+				CC695EF32EB78B3500132EE9 /* Sources */,
+				CC695EF42EB78B3500132EE9 /* Frameworks */,
+				CC695EF52EB78B3500132EE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CC695EF92EB78B3500132EE9 /* tabli */,
+			);
+			name = tabli;
+			packageProductDependencies = (
+				D6D706792F180B720090200E /* FirebaseAnalytics */,
+				D6D7067B2F180B720090200E /* FirebaseAuth */,
+				D6D7067D2F180B720090200E /* FirebaseFirestore */,
+				D6D7067F2F180B720090200E /* FirebaseFirestoreCombine-Community */,
+			);
+			productName = tabli;
+			productReference = CC695EF72EB78B3500132EE9 /* tabli.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC695F032EB78B3600132EE9 /* tabliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC695F1B2EB78B3600132EE9 /* Build configuration list for PBXNativeTarget "tabliTests" */;
+			buildPhases = (
+				CC695F002EB78B3600132EE9 /* Sources */,
+				CC695F012EB78B3600132EE9 /* Frameworks */,
+				CC695F022EB78B3600132EE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC695F062EB78B3600132EE9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CC695F072EB78B3600132EE9 /* tabliTests */,
+			);
+			name = tabliTests;
+			packageProductDependencies = (
+			);
+			productName = tabliTests;
+			productReference = CC695F042EB78B3600132EE9 /* tabliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC695F0D2EB78B3600132EE9 /* tabliUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC695F1E2EB78B3600132EE9 /* Build configuration list for PBXNativeTarget "tabliUITests" */;
+			buildPhases = (
+				CC695F0A2EB78B3600132EE9 /* Sources */,
+				CC695F0B2EB78B3600132EE9 /* Frameworks */,
+				CC695F0C2EB78B3600132EE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC695F102EB78B3600132EE9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CC695F112EB78B3600132EE9 /* tabliUITests */,
+			);
+			name = tabliUITests;
+			packageProductDependencies = (
+			);
+			productName = tabliUITests;
+			productReference = CC695F0E2EB78B3600132EE9 /* tabliUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC695EEF2EB78B3500132EE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					CC695EF62EB78B3500132EE9 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					CC695F032EB78B3600132EE9 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = CC695EF62EB78B3500132EE9;
+					};
+					CC695F0D2EB78B3600132EE9 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = CC695EF62EB78B3500132EE9;
+					};
+				};
+			};
+			buildConfigurationList = CC695EF22EB78B3500132EE9 /* Build configuration list for PBXProject "tabli" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				tr,
+			);
+			mainGroup = CC695EEE2EB78B3500132EE9;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D6D706142F1807000090200E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CC695EF82EB78B3500132EE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC695EF62EB78B3500132EE9 /* tabli */,
+				CC695F032EB78B3600132EE9 /* tabliTests */,
+				CC695F0D2EB78B3600132EE9 /* tabliUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC695EF52EB78B3500132EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC695F022EB78B3600132EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC695F0C2EB78B3600132EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC695EF32EB78B3500132EE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC695F002EB78B3600132EE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC695F0A2EB78B3600132EE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC695F062EB78B3600132EE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC695EF62EB78B3500132EE9 /* tabli */;
+			targetProxy = CC695F052EB78B3600132EE9 /* PBXContainerItemProxy */;
+		};
+		CC695F102EB78B3600132EE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC695EF62EB78B3500132EE9 /* tabli */;
+			targetProxy = CC695F0F2EB78B3600132EE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CC695F162EB78B3600132EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 52V6SN28K9;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC695F172EB78B3600132EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 52V6SN28K9;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC695F192EB78B3600132EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52V6SN28K9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Ustn;
+				INFOPLIST_KEY_CFBundleName = Ustn;
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR kod tarayarak masa numaranızı seçmek için kamera erişimine ihtiyacımız var.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tasoapp.tabli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC695F1A2EB78B3600132EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52V6SN28K9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Ustn;
+				INFOPLIST_KEY_CFBundleName = Ustn;
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR kod tarayarak masa numaranızı seçmek için kamera erişimine ihtiyacımız var.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tasoapp.tabli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC695F1C2EB78B3600132EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52V6SN28K9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tasoapp.tabliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tabli.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tabli";
+			};
+			name = Debug;
+		};
+		CC695F1D2EB78B3600132EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52V6SN28K9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tasoapp.tabliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tabli.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tabli";
+			};
+			name = Release;
+		};
+		CC695F1F2EB78B3600132EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52V6SN28K9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tasoapp.tabliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tabli;
+			};
+			name = Debug;
+		};
+		CC695F202EB78B3600132EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52V6SN28K9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tasoapp.tabliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tabli;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC695EF22EB78B3500132EE9 /* Build configuration list for PBXProject "tabli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC695F162EB78B3600132EE9 /* Debug */,
+				CC695F172EB78B3600132EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC695F182EB78B3600132EE9 /* Build configuration list for PBXNativeTarget "tabli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC695F192EB78B3600132EE9 /* Debug */,
+				CC695F1A2EB78B3600132EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC695F1B2EB78B3600132EE9 /* Build configuration list for PBXNativeTarget "tabliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC695F1C2EB78B3600132EE9 /* Debug */,
+				CC695F1D2EB78B3600132EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC695F1E2EB78B3600132EE9 /* Build configuration list for PBXNativeTarget "tabliUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC695F1F2EB78B3600132EE9 /* Debug */,
+				CC695F202EB78B3600132EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D6D706142F1807000090200E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D6D706792F180B720090200E /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6D706142F1807000090200E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		D6D7067B2F180B720090200E /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6D706142F1807000090200E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		D6D7067D2F180B720090200E /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6D706142F1807000090200E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		D6D7067F2F180B720090200E /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6D706142F1807000090200E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CC695EEF2EB78B3500132EE9 /* Project object */;
+}

@@ -1,0 +1,118 @@
+/* 
+  Localizable.strings (English)
+  tabli
+*/
+
+// MARK: - General
+"app_name" = "Ustn";
+"cancel" = "Cancel";
+"done" = "Done";
+"save" = "Save";
+"delete" = "Delete";
+"edit" = "Edit";
+"close" = "Close";
+"back" = "Back";
+"next" = "Next";
+"search" = "Search";
+
+// MARK: - Splash Screen
+"splash_title" = "Ustn";
+
+// MARK: - Home Screen
+"home_title" = "Ustn";
+"select_table" = "Select Table";
+"table" = "Table";
+"start_order" = "Start Order";
+"order_status" = "Order Status";
+
+// MARK: - Table Selection
+"select_your_table" = "Select Your Table";
+"choose_table_message" = "Choose your table number to start ordering";
+"tap_to_select" = "Tap to select";
+"change" = "Change";
+
+// MARK: - Menu
+"menu" = "Menu";
+"search_menu_items" = "Search menu items...";
+"no_items_found" = "No items found";
+"select_category" = "Select a category";
+"try_different_search" = "Try a different search";
+
+// MARK: - Menu Categories
+"category_coffee" = "Coffee";
+"category_pastries" = "Pastries";
+"category_cold_drinks" = "Cold Drinks";
+"category_snacks" = "Snacks";
+"category_desserts" = "Desserts";
+
+// MARK: - Product Detail
+"description" = "Description";
+"quantity" = "Quantity";
+"add_to_cart" = "Add to Cart";
+"added" = "Added!";
+"already_in_cart" = "Already %d in cart";
+"total_price" = "$%.2f";
+
+// MARK: - Cart
+"your_order" = "Your Order";
+"cart_empty" = "Your cart is empty";
+"add_items_message" = "Add items from the menu to get started";
+"items" = "items";
+"item" = "item";
+"each" = "each";
+"total" = "Total";
+"subtotal" = "Subtotal";
+"place_order" = "Place Order";
+
+// MARK: - Order Confirmation
+"order_placed" = "Order Placed!";
+"order_sent_message" = "Your order has been sent to the barista 🍰";
+"back_to_home" = "Back to Home";
+
+// MARK: - Order Status
+"order_status_title" = "Order Status";
+"order_pending" = "Order Pending";
+"preparing" = "Preparing...";
+"order_ready" = "Order Ready!";
+"no_active_order" = "No Active Order";
+"order_pending_message" = "Your order has been received and is waiting to be prepared.";
+"preparing_message" = "The barista is working on your order. It won't be long!";
+"order_ready_message" = "Your order is ready! Please collect it from the counter.";
+"no_order_message" = "You don't have an active order.";
+"favorites" = "Favorites";
+"order_history" = "Order History";
+"special_notes" = "Special Notes";
+"special_notes_placeholder" = "Special instructions, allergies, etc...";
+"scan_qr_code" = "Scan QR Code";
+"manual_entry" = "Manual Entry";
+"add_to_favorites" = "Add to Favorites";
+"remove_from_favorites" = "Remove from Favorites";
+"no_favorites" = "No Favorites";
+"add_favorites_message" = "Add your favorite items to favorites";
+"no_order_history" = "No Order History";
+"no_order_history_message" = "You haven't placed any orders yet";
+"profile" = "Profile";
+"edit_profile" = "Edit Profile";
+"create_profile" = "Create Profile";
+"name" = "Name";
+"email" = "Email";
+"phone" = "Phone";
+"personal_information" = "Personal Information";
+"profile_information" = "Profile Information";
+"create_profile_message" = "Create your profile to enjoy a personalized experience";
+"member_since" = "Member since";
+"notifications" = "Notifications";
+"dietary_restrictions" = "Dietary Restrictions";
+"statistics" = "Statistics";
+"cart_items" = "Cart Items";
+"dark_mode" = "Dark Mode";
+"user" = "User";
+"language" = "Language";
+"about" = "About";
+"about_app" = "About Ustn";
+"app_version" = "Version";
+"app_description" = "Ustn is a modern restaurant ordering app that allows customers to order directly from their table using QR codes.";
+"developer_info" = "Developer Information";
+"contact" = "Contact";
+"privacy_policy" = "Privacy Policy";
+"terms_of_service" = "Terms of Service";

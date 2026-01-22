@@ -1,0 +1,118 @@
+/* 
+  Localizable.strings (Turkish)
+  tabli
+*/
+
+// MARK: - General
+"app_name" = "Ustn";
+"cancel" = "İptal";
+"done" = "Tamam";
+"save" = "Kaydet";
+"delete" = "Sil";
+"edit" = "Düzenle";
+"close" = "Kapat";
+"back" = "Geri";
+"next" = "İleri";
+"search" = "Ara";
+
+// MARK: - Splash Screen
+"splash_title" = "Ustn";
+
+// MARK: - Home Screen
+"home_title" = "Ustn";
+"select_table" = "Masa Seç";
+"table" = "Masa";
+"start_order" = "Siparişe Başla";
+"order_status" = "Sipariş Durumu";
+
+// MARK: - Table Selection
+"select_your_table" = "Masanızı Seçin";
+"choose_table_message" = "Sipariş vermek için masa numaranızı seçin";
+"tap_to_select" = "Seçmek için dokunun";
+"change" = "Değiştir";
+
+// MARK: - Menu
+"menu" = "Menü";
+"search_menu_items" = "Menü öğelerinde ara...";
+"no_items_found" = "Ürün bulunamadı";
+"select_category" = "Bir kategori seçin";
+"try_different_search" = "Farklı bir arama deneyin";
+
+// MARK: - Menu Categories
+"category_coffee" = "Kahve";
+"category_pastries" = "Hamur İşleri";
+"category_cold_drinks" = "Soğuk İçecekler";
+"category_snacks" = "Atıştırmalıklar";
+"category_desserts" = "Tatlılar";
+
+// MARK: - Product Detail
+"description" = "Açıklama";
+"quantity" = "Miktar";
+"add_to_cart" = "Sepete Ekle";
+"added" = "Eklendi!";
+"already_in_cart" = "Sepette zaten %d adet var";
+"total_price" = "%.2f ₺";
+
+// MARK: - Cart
+"your_order" = "Siparişiniz";
+"cart_empty" = "Sepetiniz boş";
+"add_items_message" = "Başlamak için menüden ürün ekleyin";
+"items" = "ürün";
+"item" = "ürün";
+"each" = "adet";
+"total" = "Toplam";
+"subtotal" = "Ara Toplam";
+"place_order" = "Sipariş Ver";
+
+// MARK: - Order Confirmation
+"order_placed" = "Sipariş Verildi!";
+"order_sent_message" = "Siparişiniz baristaya iletildi 🍰";
+"back_to_home" = "Ana Sayfaya Dön";
+
+// MARK: - Order Status
+"order_status_title" = "Sipariş Durumu";
+"order_pending" = "Sipariş Beklemede";
+"preparing" = "Hazırlanıyor...";
+"order_ready" = "Sipariş Hazır!";
+"no_active_order" = "Aktif Sipariş Yok";
+"order_pending_message" = "Siparişiniz alındı ve hazırlanmak üzere bekliyor.";
+"preparing_message" = "Barista siparişinizi hazırlıyor. Çok kalmadı!";
+"order_ready_message" = "Siparişiniz hazır! Lütfen tezgahtan alın.";
+"no_order_message" = "Aktif bir siparişiniz yok.";
+"favorites" = "Favoriler";
+"order_history" = "Sipariş Geçmişi";
+"special_notes" = "Özel Notlar";
+"special_notes_placeholder" = "Özel talimatlar, alerjiler vb...";
+"scan_qr_code" = "QR Kod ile Masa Seç";
+"manual_entry" = "Manuel Giriş";
+"add_to_favorites" = "Favorilere Ekle";
+"remove_from_favorites" = "Favorilerden Çıkar";
+"no_favorites" = "Favori Ürün Yok";
+"add_favorites_message" = "Beğendiğiniz ürünleri favorilere ekleyin";
+"no_order_history" = "Sipariş Geçmişi Yok";
+"no_order_history_message" = "Henüz sipariş vermediniz";
+"profile" = "Profil";
+"edit_profile" = "Profili Düzenle";
+"create_profile" = "Profil Oluştur";
+"name" = "İsim";
+"email" = "E-posta";
+"phone" = "Telefon";
+"personal_information" = "Kişisel Bilgiler";
+"profile_information" = "Profil Bilgileri";
+"create_profile_message" = "Profilinizi oluşturarak kişiselleştirilmiş deneyim yaşayın";
+"member_since" = "Üye olma tarihi";
+"notifications" = "Bildirimler";
+"dietary_restrictions" = "Diyet Kısıtlamaları";
+"statistics" = "İstatistikler";
+"cart_items" = "Sepet Öğeleri";
+"dark_mode" = "Karanlık Mod";
+"user" = "Kullanıcı";
+"language" = "Dil";
+"about" = "Hakkında";
+"about_app" = "Ustn Hakkında";
+"app_version" = "Sürüm";
+"app_description" = "Ustn, müşterilerin QR kodlar kullanarak masalarından doğrudan sipariş vermesine olanak tanıyan modern bir restoran sipariş uygulamasıdır.";
+"developer_info" = "Geliştirici Bilgileri";
+"contact" = "İletişim";
+"privacy_policy" = "Gizlilik Politikası";
+"terms_of_service" = "Hizmet Şartları";
