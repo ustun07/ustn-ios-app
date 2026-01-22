@@ -15,11 +15,11 @@
 <meta name="author" content="Selim Can Üstün">
 <meta property="og:title" content="Üstün Restorant - Modern Restoran Sipariş Uygulaması">
 <meta property="og:description" content="iOS için modern ve şık cafe sipariş uygulaması. QR kod tarama, menü yönetimi, sipariş takibi ve daha fazlası.">
-<meta property="og:image" content="amata-logo.png">
+<meta property="og:image" content="ustn-logo.png">
 <meta property="og:type" content="website">
 
 <div align="center">
-  <img src="amata-logo.png" alt="Ustn Restorant Sipariş Uygulaması Logo - Modern iOS Restoran Sipariş Sistemi" width="300" height="auto"/>
+  <img src="ustn-logo.png" alt="Ustn Restorant Sipariş Uygulaması Logo - Modern iOS Restoran Sipariş Sistemi" width="300" height="auto"/>
   
   <h2>Premium Restoran Sipariş Uygulaması | iOS QR Kod Sipariş Sistemi</h2>
   
@@ -566,7 +566,7 @@ Hata bulduysanız veya özellik önerisi yapmak isterseniz:
 # ENGLISH VERSION
 
 <div align="center">
-  <img src="amata-logo.png" alt="Amata Cafe Order App Logo - Modern iOS Cafe Ordering System" width="300" height="auto"/>
+  <img src="ustn-logo.png" alt="Ustn Restaurant Order App Logo - Modern iOS Restaurant Ordering System" width="300" height="auto"/>
   
   <h2>Premium Cafe Order App | iOS QR Code Ordering System</h2>
   
@@ -581,13 +581,13 @@ Hata bulduysanız veya özellik önerisi yapmak isterseniz:
 
 ---
 
-## 📱 What is Amata? | About the Cafe Order App
+## 📱 What is Ustn Restaurant? | About the Restaurant Order App
 
-**Amata** is a modern **mobile ordering app** developed for restaurants and cafes. This iOS app allows customers to place orders directly from their tables, offering advanced features such as **QR code scanning**, **menu management**, **order tracking**, and **favorites system**.
+**Ustn** is a modern **mobile ordering app** developed for restaurants and cafes. This iOS app allows customers to place orders directly from their tables, offering advanced features such as **QR code scanning**, **menu management**, **order tracking**, and **favorites system**.
 
-Amata delivers a **"premium yet cozy"** user experience that combines Apple's minimalism philosophy with the warm atmosphere of Parisian coffeehouses. The app is built using SwiftUI and MVVM architecture and runs on iOS 17+ devices.
+Ustn delivers a **"premium yet cozy"** user experience that combines Apple's minimalism philosophy with the warm atmosphere of Turkish cuisine. The app is built using SwiftUI and MVVM architecture and runs on iOS 17+ devices.
 
-## ✨ Amata Cafe App Features
+## ✨ Ustn Restaurant App Features
 
 ### 📋 Menu and Ordering Features
 - **Modern Menu Display**: Rich menu experience with glassmorphism, parallax scroll and 3D effects
@@ -633,7 +633,7 @@ Amata delivers a **"premium yet cozy"** user experience that combines Apple's mi
 
 ## 🛠 Technology Stack | Technologies Used
 
-Amata is built according to modern iOS development standards:
+Ustn is built according to modern iOS development standards:
 
 ### Core Technologies
 - **SwiftUI 5.0**: Apple's modern, declarative UI framework
@@ -680,14 +680,14 @@ Amata is built according to modern iOS development standards:
 
 ---
 
-## 🚀 Installing Amata App | Installation Guide
+## 🚀 Installing Ustn App | Installation Guide
 
 ### Quick Start
 
 1. **Download or Clone the Project**:
 ```bash
-git clone https://github.com/yourusername/amata.git
-cd amata
+git clone https://github.com/selimcanustun/ustn-restorant.git
+cd ustn-restorant
 ```
 or download as ZIP and extract.
 
@@ -715,7 +715,7 @@ or double-click `tabli.xcodeproj` in Finder.
 
 ---
 
-## 📖 Amata User Guide | Usage Instructions
+## 📖 Ustn User Guide | Usage Instructions
 
 ### 🎯 First Time Setup
 
@@ -790,9 +790,9 @@ or double-click `tabli.xcodeproj` in Finder.
 
 ---
 
-## 🏗 Amata Project Structure | Code Organization
+## 🏗 Ustn Project Structure | Code Organization
 
-Amata is organized using **MVVM (Model-View-ViewModel)** architecture:
+Ustn is organized using **MVVM (Model-View-ViewModel)** architecture:
 
 ```
 tabli/
@@ -833,7 +833,7 @@ tabli/
 │
 ├── Assets.xcassets/                 # Images and Icons
 │   ├── AppIcon.appiconset/         # App icon
-│   ├── AmataLogo.imageset/         # Amata logo
+│   ├── UstnLogo.imageset/          # Ustn logo
 │   └── AccentColor.colorset/       # Accent color
 │
 ├── ContentView.swift                # Main view router
@@ -841,7 +841,7 @@ tabli/
 ```
 
 ### 📦 Dependencies
-Amata uses **no external dependencies**. All features are developed with native iOS frameworks:
+Ustn uses **Firebase** and native iOS frameworks:
 - SwiftUI (UI)
 - AVFoundation (Camera)
 - Combine (Reactive Programming)
@@ -849,9 +849,9 @@ Amata uses **no external dependencies**. All features are developed with native 
 
 ---
 
-## 🎨 Amata Design System | UI/UX Design
+## 🎨 Ustn Design System | UI/UX Design
 
-Amata adopts a **minimalist design language in warm coffee tones**. The design complies with Apple's Human Interface Guidelines.
+Ustn adopts a **minimalist design language in warm coffee tones**. The design complies with Apple's Human Interface Guidelines.
 
 ### 🎨 Color Palette
 | Color | Hex Code | Usage Area |
@@ -901,7 +901,7 @@ Amata adopts a **minimalist design language in warm coffee tones**. The design c
 
 ## 🌍 Localization and Language Support
 
-Amata app is developed with **multi-language support**:
+Ustn app is developed with **multi-language support**:
 
 ### Supported Languages
 - 🇹🇷 **Turkish**: Default language
@@ -1092,6 +1092,6 @@ If you find a bug or want to suggest a feature:
 ---
 
 <div align="center">
-  <strong>Enjoy your coffee with Amata! ☕✨</strong>
+  <strong>Enjoy your meal with Ustn! 🍖✨</strong>
 </div>
 
